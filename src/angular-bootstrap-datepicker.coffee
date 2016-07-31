@@ -4,7 +4,7 @@ dp.directive 'ngDatepicker', ->
   restrict: 'A'
   replace: true
   scope:
-    ngOptions: '='
+    ngOptions: '=pickerOptions'
     ngModel: '='
   template: """
             <div class="input-append date">
